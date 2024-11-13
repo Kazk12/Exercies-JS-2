@@ -1,9 +1,9 @@
 
 // Exercice 1
 
-// let message = prompt(`Entrez votre mot ici : `);
+//  let message = prompt(`Entrez votre mot ici : `);
 
-// console.log(message);
+//  console.log(message);
 
 
 
@@ -19,7 +19,7 @@
 
 // Exercice 3
 
-// let pren = prompt(`Entrez votre prénom ici : `);
-// window.alert(`Bonjour, ${pren}`);
+//  let pren = prompt(`Entrez votre prénom ici : `);
+//  window.alert(`Bonjour, ${pren}`);
 
 
