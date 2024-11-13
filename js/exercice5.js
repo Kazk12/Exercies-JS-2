@@ -5,4 +5,15 @@
 
 // window.alert(multiplication);
 
+function valider() {
+    const premier = document.getElementById("firstNumber").value;
+    const deuxieme = document.getElementById("secondNumber").value;
 
+    const num1 = Math.trunc(premier);
+    const num2 = Math.trunc(deuxieme);
+    const multipli = num1 * num2;
+
+    window.alert(multipli)
+
+
+}
