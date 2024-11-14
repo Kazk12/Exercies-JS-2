@@ -1,10 +1,11 @@
 // Exerice 9
 
-// const nombre = window.prompt("Entrez un nombre : ");
+const nombre = window.prompt("Entrez un nombre : ");
 
-// for(let i = 1; i <= 10; i++){
-//     window.alert(`${nombre} * ${i} = ${nombre * i}`);
-// }
+for(let i = 1; i <= 10; i++){
+    // window.alert(`${nombre} * ${i} = ${nombre * i}`);
+    console.log(`${nombre} * ${i} = ${nombre * i}`);
+}
 
 
 
@@ -13,11 +14,11 @@
 // Exercice 10
 
 
-let mots = prompt(`Entre un mot ici ce que vous voulez : `);
+// let mots = prompt(`Entre un mot ici ce que vous voulez : `);
 
-for(let i = 0; i < mots.length; i++){
-    console.log("\n" + mots[i]);
-};
+// for(let i = 0; i < mots.length; i++){
+//     console.log("\n" + mots[i]);
+// };
 
 
 
