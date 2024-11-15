@@ -1,13 +1,14 @@
 // Exerice 9
 
-const nombre = window.prompt("Entrez un nombre : ");
+const nombre = parseInt(prompt("Entrez un nombre : "));
+let resultat = "";
 
-for(let i = 1; i <= 10; i++){
+for(let i = 1; i <= 10; i+=1){
     // window.alert(`${nombre} * ${i} = ${nombre * i}`);
-    console.log(`${nombre} * ${i} = ${nombre * i}`);
+    resultat += `${nombre} * ${i} = ${nombre * i} \n`;
 }
 
-
+alert(resultat);
 
 
 
