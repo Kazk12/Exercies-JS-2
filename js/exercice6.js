@@ -1,12 +1,12 @@
-function valider() {
-    const premier = document.getElementById("firstNumber").value;
-    const deuxieme = document.getElementById("secondNumber").value;
-
-    const div = premier % deuxieme;
-
-    window.alert(div)
+import { resteDivision } from "./ResteDivision.js";
 
 
-}
 
+
+// une variable qui va utiliser la fonction resteDivision pour avoir le résultat
+
+
+let resultat = resteDivision(5, 2);
+
+console.log(resultat);
 
